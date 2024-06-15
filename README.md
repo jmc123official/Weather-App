@@ -3,6 +3,8 @@
 
 Welcome to the Weather App project! This web-based application allows users to retrieve current weather conditions for a specified location.
 
+[LIVE PREVIEW](https://jmc123official.github.io/Weather-App/)
+
 ## Features
 
 - User can enter a city name to fetch weather data.
