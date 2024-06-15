@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="icon" href="weather.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome for weather icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="weather-app">
+        <h1>Weather App</h1>
+        <div class="search-container">
+            <input type="text" id="cityInput" placeholder="Enter city name">
+            <button id="submitBtn"><i class="fas fa-search"></i></button>
+        </div>
+        <div id="weatherResults" class="hidden">
+            <div id="weatherIcon" class="weather-icon"></div>
+            <div id="temperature" class="temperature"></div>
+            <div id="weatherDescription" class="weather-description"></div>
+        </div>
+    </div>
+    <div class="social-icons">
+        <a href="https://github.com/jmc123official" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.instagram.com/_johncherian_" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-instagram"></i>
+        </a>
+    </div>
+        
+
+    <script src="script.js"></script>
+</body>
+</html>
